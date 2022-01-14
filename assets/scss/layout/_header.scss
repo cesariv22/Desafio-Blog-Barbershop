@@ -1,0 +1,50 @@
+.header-barber {
+    // position: relative;
+    background-image: url(/assets/img/post-image.jpg);
+    height: 640px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    /*&__image {
+        width: 100%;
+        height: 640px;
+        object-fit: cover;
+    }*/
+
+    &__image--title {
+        color: $color-white;
+        font-size: $fz-x-large;
+        font-family: 'Playfair Display',
+            serif;
+        font-style: italic;
+        font-weight: 900;
+        text-align: center;
+        padding-left: 45px;
+        padding-right: 45px;
+        /*  position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);*/
+    }
+
+    &__image--icon {
+        color: $color-white;
+        font-size: 50px;
+        padding-bottom: 50px;
+        /*position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+         -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);*/
+    }
+}

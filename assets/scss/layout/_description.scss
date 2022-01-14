@@ -1,0 +1,23 @@
+.description-barber {
+    margin: 47px 50px 0 50px;
+
+
+    &__title {
+        color: $colot-gray;
+        font-size: $fz-medium;
+        font-family: 'Playfair Display',
+        serif;
+        
+    }
+    &__paragraph {
+        color: $color-onyx;
+        font-size: $fz-medium;
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: 300;
+        margin-top: 47px;
+        letter-spacing: 0.56px;
+        line-height: 40px;
+        
+    }
+}

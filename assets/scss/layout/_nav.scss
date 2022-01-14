@@ -1,0 +1,24 @@
+.nav-barber {
+    background-color: $color-Eerie-black;
+
+    &__logo {
+          width: 81px;
+          height: 34px;
+          margin: 31px 0px 31px 50px;
+    }
+
+    &__button {
+         border: none;
+         padding: 0;
+         margin-right: 50px;
+    }
+
+    &__button--lines {
+         font-size: 35px;
+         color: $color-white; 
+    }
+
+    &__button--listed {
+         margin-right: 100px;
+    }
+}
