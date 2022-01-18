@@ -1,0 +1,83 @@
+.author-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 72px;
+    padding-bottom: 61px;
+    border: 1px solid $color-gray;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 95px;
+        padding-bottom: 0;
+    }
+
+    &__image {
+        width: 131px;
+        height: 133px;
+        margin-top: 62px;
+        border-radius: 300px;
+        -webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        -ms-border-radius: 300px;
+        -o-border-radius: 300px;
+        @media screen and (min-width: 768px) {
+            width: 177px;
+            height: 180px;
+            margin: 58px 0 92px 100px;
+        }
+    }
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media screen and (min-width: 768px) {
+            margin-left: 50px;
+            align-items: flex-start;
+            padding-bottom: 30px;
+        }
+    }
+
+    &__name-author {
+        margin-top: 17px;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: $fw-black;
+        font-size: $fz-l-large;
+        line-height: $lh-x-medium;
+        color: $color-Eerie-black;
+        @media screen and (min-width: 768px) {
+            width: 165px;
+            margin-top: 0;
+        }
+    }
+
+    &__name-networks {
+        margin-top: 5px;
+        font-size: $fz-medium;
+        font-weight: $fw-light;
+        color: $color-Ruddy-pink;
+        line-height: $lh-small;
+        @media screen and (min-width: 768px) {
+            font-size: $fz-s-large;
+            margin-top: 7px;
+            line-height: $lh-xx-small;
+        }
+    }
+
+    &__description {
+        margin-left: 64px;
+        margin-right: 108px;
+        width: 617px;
+    }
+
+    &__description-paragraph {
+        color: $color-gray;
+        font-size: $fz-x-small;
+        font-weight: $fw-regular;
+        line-height: $lh-medium;
+        letter-spacing: $ls-small;
+    }
+}

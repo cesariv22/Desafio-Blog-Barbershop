@@ -1,0 +1,19 @@
+.footer-barber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-Eerie-black;
+    height: 206px;
+    @media screen and (min-width: 768px) {
+        height: 199px;
+    }
+    
+    &__image {
+        width: 81px;
+        height: auto;
+        @media screen and (min-width: 768px) {
+            width: 122px;
+        }
+    }
+    
+}

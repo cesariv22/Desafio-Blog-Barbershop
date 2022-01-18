@@ -4,9 +4,12 @@ $color-white: #FFF;
 $color-Platinum: #E6E7E7;
 $color-Light-gray: #D1D1D1;
 $color-Eerie-black: #121619;
-$color-onyx: #222323;
+$color-Eerie-blackA: #1216191A;
+$color-Eerie-blackE: #1216199E;
 $color-Raisin-black: #222323;
-$colot-gray: #707070;
+$color-Raisin-blackB3: #222323B3;
+$color-soft-gray: #777777;
+$color-gray: #707070;
 $color-Nickel: #6C6E70;
 $color-Fuzzy-Wuzzy: #E56353;
 $color-Ruddy-pink: #D76C69;
@@ -14,7 +17,30 @@ $color-Spanish-pink: #ECBCBA;
 
 //Font Size
 $fz-xx-large: 70px;
-$fz-x-large :40px;
+$fz-x-large:40px;
+$fz-l-large:30px;
+$fz-s-large: 20px;
 $fz-large: 18px;
 $fz-medium: 16px;
+$fz-x-small: 14px;
 $fz-small: 12px;
+
+//Font Weight
+$fw-light: 300;
+$fw-regular:400;
+$fw-black: 900;
+
+//Line Height
+$lh-xx-large: 94px;
+$lh-x-large: 53px;
+$lh-large: 45px;
+$lh-x-medium: 40px;
+$lh-medium: 35px;
+$lh-xx-small: 26px;
+$lh-x-small: 24px;
+$lh-small: 21px;
+
+//Letter Spacing
+$ls-small: 0.49px;
+$ls-medium: 0.56px;
+$ls-large: 0.63px;

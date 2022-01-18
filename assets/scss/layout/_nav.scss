@@ -5,6 +5,11 @@
           width: 81px;
           height: 34px;
           margin: 31px 0px 31px 50px;
+          @media screen and (min-width: 768px) {
+               width: 79px;
+               height: 45px;
+               margin-left: 130px;
+          }
     }
 
     &__button {
@@ -13,12 +18,12 @@
          margin-right: 50px;
     }
 
-    &__button--lines {
+    &__button-lines {
          font-size: 35px;
          color: $color-white; 
     }
 
-    &__button--listed {
-         margin-right: 100px;
+    &__button-listed {
+         margin-right: 130px;
     }
 }

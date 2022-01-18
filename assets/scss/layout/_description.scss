@@ -1,23 +1,41 @@
 .description-barber {
     margin: 47px 50px 0 50px;
-
+    @media screen and (min-width: 768px) {
+        margin-top: 75px;
+        margin-left: 100px;
+        margin-right: 104px;
+    }
 
     &__title {
-        color: $colot-gray;
+        color: $color-gray;
         font-size: $fz-medium;
+        line-height: $lh-small;
         font-family: 'Playfair Display',
         serif;
-        
+        @media screen and (min-width: 768px) {
+            font-size: $fz-large;
+            color: $color-Raisin-blackB3;   
+            line-height: $lh-large;
+            letter-spacing: $ls-large;
+        }
     }
+
     &__paragraph {
-        color: $color-onyx;
+        color: $color-Raisin-black;
         font-size: $fz-medium;
         font-family: 'Roboto',
         sans-serif;
-        font-weight: 300;
+        font-weight: $fw-light;
         margin-top: 47px;
-        letter-spacing: 0.56px;
-        line-height: 40px;
-        
+        letter-spacing: $ls-medium;
+        line-height: $lh-x-medium;
+        @media screen and (min-width: 768px) {
+            margin-top: 66px;
+            line-height: $lh-large;
+        }
+    }
+
+    &__paragraph-pink {
+        color: $color-Ruddy-pink;
     }
 }
