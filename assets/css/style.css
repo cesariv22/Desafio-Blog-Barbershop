@@ -137,7 +137,7 @@ body {
 }
 
 .header-barber {
-  background-image: url(/assets/img/post-image.jpg);
+  background-image: url(../img/post-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 640px;
