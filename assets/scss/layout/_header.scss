@@ -1,39 +1,42 @@
 .header-barber {
-    background-image: url(../img/post-image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 640px;
+  background-image: url(../img/post-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 640px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
     justify-content: center;
+    height: 600px;
+    background-size: contain;
+  }
+
+  &__title {
+    color: $color-white;
+    font-size: $fz-x-large;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: $fw-black;
+    line-height: $lh-x-large;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
     @media screen and (min-width: 768px) {
-        height: 702px;
-        background-size: cover;
+      margin-left: 328px;
+      margin-right: 317px;
+      font-size: $fz-xx-large;
+      line-height: $lh-xx-large;
     }
+  }
 
-    &__title {
-        color: $color-white;
-        font-size: $fz-x-large;
-        font-family: 'Playfair Display',
-            serif;
-        font-style: italic;
-        font-weight: $fw-black;
-        line-height: $lh-x-large;
-        text-align: center;
-        padding-left: 45px;
-        padding-right: 45px;
-        @media screen and (min-width: 768px) {
-            margin-left: 328px;
-            margin-right: 317px;
-            font-size: $fz-xx-large;
-            line-height: $lh-xx-large;
-        }
-    }
-
-    &__icon-chevron {
-        color: $color-white;
-        font-size: 50px;
-        padding-bottom: 71px;
-    }
-}   
+  &__icon-chevron {
+    color: $color-white;
+    font-size: 50px;
+    padding-bottom: 71px;
+  }
+}
