@@ -1,41 +1,48 @@
 .pagination-barber {
-    background-color: $color-Eerie-blackA;
+  background-color: $color-Eerie-blackA;
 
+  &__unorderlist {
+    padding-top: 58px;
+    padding-bottom: 58px;
+    @media screen and (min-width: 768px) {
+      padding-top: 47px;
+      padding-bottom: 47px;
+    }
+  }
 
-    &__unorderlist {
-        padding-top: 58px;
-        padding-bottom: 58px;
-        @media screen and (min-width: 768px) {
-            padding-top: 47px;
-            padding-bottom: 47px;
-            
-        }
-    }
+  &__unorderlist-lileft {
+    font-size: $fz-medium;
+    font-weight: $fw-regular;
+    color: $color-soft-gray;
+    line-height: $lh-x-small;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
 
-    &__unorderlist-lileft {
-        font-size: $fz-medium;
-        font-weight: $fw-regular;
-        color: $color-soft-gray;
-        line-height: $lh-x-small;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-    }
+  &__unorderlist-lileft:hover {
+    background-color: $color-Eerie-black;
+    color: $color-white;
+  }
 
-    &__unorderlist-licenter {
-        color: $color-Eerie-black;
-        font-size: $fz-medium;
-    }
-    &__unorderlist-licenter:hover {
-        background-color: $color-Eerie-black;
-        color: $color-white;
-    }
+  &__unorderlist-licenter {
+    color: $color-Eerie-black;
+    font-size: $fz-medium;
+  }
+  &__unorderlist-licenter:hover {
+    background-color: $color-Eerie-black;
+    color: $color-white;
+  }
 
-    &__unorderlist-liright {
-        color: $color-Eerie-black;
-        font-size: $fz-medium;
-        font-weight: $fw-regular;
-        line-height: $lh-x-small;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-    }
+  &__unorderlist-liright {
+    color: $color-Eerie-black;
+    font-size: $fz-medium;
+    font-weight: $fw-regular;
+    line-height: $lh-x-small;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  &__unorderlist-liright:hover {
+    background-color: $color-Eerie-black;
+    color: $color-white;
+  }
 }
